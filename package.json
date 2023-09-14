@@ -1,0 +1,28 @@
+{
+  "name": "authnode",
+  "version": "1.0.0",
+  "description": "node authenticator ",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sachin4219",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.1",
+    "nodemon": "^3.0.1"
+  }
+}
